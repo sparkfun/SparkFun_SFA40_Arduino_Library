@@ -1,0 +1,33 @@
+# Syntax Coloring Map for SparkFun SFA40 Arduino Library
+
+# Datatypes / Classes (KEYWORD1)
+SfeSFA40ArdI2C	KEYWORD1
+sfDevSFA40	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+isConnected	KEYWORD2
+reset	KEYWORD2
+startMeasurement	KEYWORD2
+stopMeasurement	KEYWORD2
+readMeasurement	KEYWORD2
+getHCHO	KEYWORD2
+getHumidity	KEYWORD2
+getTemperature	KEYWORD2
+getTemperatureF	KEYWORD2
+getStatus	KEYWORD2
+isReady	KEYWORD2
+isWithinSpecifications	KEYWORD2
+getHCHORaw	KEYWORD2
+getHumidityRaw	KEYWORD2
+getTemperatureRaw	KEYWORD2
+getSerialNumber	KEYWORD2
+startSelfTest	KEYWORD2
+readSelfTestResult	KEYWORD2
+
+# Structures / Types (KEYWORD3)
+sfe_sfa40_status_bit_t	KEYWORD3
+
+# Constants (LITERAL1)
+SFA40_STATUS_NOT_READY	LITERAL1
+SFA40_STATUS_NOT_WITHIN_SPEC	LITERAL1

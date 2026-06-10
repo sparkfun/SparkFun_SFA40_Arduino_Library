@@ -1,0 +1,16 @@
+{
+    "name": "SparkFun SFA40 Arduino Library",
+    "version": "1.0.0",
+    "author": "SparkFun Electronics",
+    "keywords": "Sensor, formaldehyde, HCHO, air quality, SFA40, Sensirion, Qwiic",
+    "description": "An Arduino library for the SparkFun Qwiic Formaldehyde Sensor (SFA40), providing calibrated formaldehyde, humidity, and temperature measurements.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sparkfun/SparkFun_SFA40_Arduino_Library"
+    },
+    "dependencies": {
+        "sparkfun/SparkFun Toolkit": ">=1.2.0"
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
+}
