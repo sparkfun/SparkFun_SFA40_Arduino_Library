@@ -33,7 +33,7 @@ The library exposes the full SFA40 command set:
 
 ## Hardware Connections
 
-The sensor connects over I2C using the Qwiic connector — no soldering required. The SFA40 uses a single fixed 7-bit I2C address of `0x5D`.
+The sensor connects via I2C using either a Qwiic connector or by using the plated through-hole headers. The SFA40 uses a single fixed 7-bit I2C address of `0x5D`.
 
 | Pin / Header | Use | Notes |
 | -- | -- | -- |
@@ -113,7 +113,7 @@ else
 
 ### A Note on Return Values and Error Handling
 
-Most library methods return a SparkFun Toolkit error code (`ksfTkErrOk` on success, a negative value on failure). For the data-reading commands, this also covers CRC validation — a corrupted reading returns an error rather than bad data. For simple sketches you can ignore the return value:
+Most library methods return a SparkFun Toolkit error code (`ksfTkErrOk` on success, a negative value on failure). For the data-reading commands, this also covers CRC validation. A corrupted reading returns an error rather than bad data. For simple sketches you can ignore the return value:
 
 ```c++
 mySensor.readMeasurement(); // assume good data
